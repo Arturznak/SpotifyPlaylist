@@ -1,0 +1,166 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d4f4c9;
+}
+* {
+    box-sizing: border-box;
+}
+
+.results {
+    margin-top: 30px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: auto;
+}
+
+.track {
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+    padding: 1.5%;
+    width: 23%;
+    height: auto;
+    background-color: white;
+    border-radius: 3%;
+    border: 2px solid transparent;
+}
+
+.track:hover {
+    background-color: #b2f3a2;
+    border: 2px solid #59cb78;
+}
+
+.imgs {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #0ab049;
+}
+
+.buscador > #buscador {
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 35%;
+    border: 1px solid #11b54c;
+}
+
+.buscador > #buscar {
+    background-color: #047c2e;
+    padding: 5px 10px;
+    border-color: #007323;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid black;
+}
+
+.buscador > #buscar:hover {
+    background-color: #74f39e;
+    color: black;
+}
+
+.buscador > #borrar {
+    margin-left: 10px;
+    background-color: #047c2e;
+    padding: 5px 10px;
+    border-color: #007323;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid black;
+}
+
+.buscador > #borrar:hover {
+    background-color: #74f39e;
+    color: black;
+}
+
+.columnas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.info {
+    width: 70%;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.columna2 {
+    width: auto;
+    margin-top: 8%;
+}
+
+.cuadrado_derecha {
+    box-sizing: border-box;
+    overflow-y: auto;
+    border: 1px solid black;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 90%; /* Ajustado para centrar la información */
+    height: auto; /* Adaptar al contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.informacion {
+    text-align: center;
+}
+
+.add-song {
+    background-color: #007829;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+.add-song:hover{
+    background-color: #74f39e;
+    color: black;
+}
+
+.artist-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 15px; /* Espacio uniforme */
+    margin: 20px;
+    width: 100%; /* Asegurar que no exceda el contenedor */
+}
+
+.imgsInfo {
+    width: 150px; /* Ajuste de tamaño para mantener proporcionalidad */
+    height: auto;
+    border-radius: 50%; /* Imagen redonda */
+    border: 2px solid #007829; /* Bordes elegantes */
+}
+
+.artist-info h2, 
+.artist-info p {
+    margin: 5px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.cargar_canç {
+    background-color: #74f39e;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 3px;
+}
